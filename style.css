@@ -4,6 +4,8 @@ body {
   	font-family: font-family: 'Open Sans', sans-serif;
   	font-weight: 300;
   	color: white;
+  	--main-green: #095361;
+  	--dark-green: #073942;
 }
 
 /* NAV */
@@ -17,7 +19,7 @@ body {
 	display: flex;
 	list-style: none;
 	font-size: 0.9em;
-	background-color: #095361;
+	background-color: var(--main-green);
 	border: none;
 	padding-top: .3em;
 	padding-bottom: .3em;
@@ -96,14 +98,24 @@ hr {
 }
 
 .btn-primary {
-	background-color: #095361;
+	background-color: var(--main-green);
 	border: none;
+	outline: none;
 	font-weight: 300;
 }
 
 .btn-primary:hover {
-	background-color: #073942;
+	background-color: var(--dark-green);
 	cursor: pointer;
+}
+
+.btn-primary:active {
+	outline: none !important;
+	border: none;
+}
+
+.btn-primary:focus {
+	outline: none !important;
 }
 
 	
