@@ -108,14 +108,4 @@ hr {
 	background-color: var(--dark-green);
 	cursor: pointer;
 }
-
-.btn-primary:active {
-	outline: none !important;
-	border: none;
-}
-
-.btn-primary:focus {
-	outline: none !important;
-}
-
 	
